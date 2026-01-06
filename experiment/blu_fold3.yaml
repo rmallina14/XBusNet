@@ -1,0 +1,64 @@
+configuration:
+  # ---- run name ----
+  name: blu_fold3_xbusnet
+
+  # ---- training ----
+  batch_size: 4
+  optimizer: torch.optim.AdamW
+  lr: 0.0001
+
+  lr_scheduler: cosine
+  T_max: 20000
+  eta_min: 0.000001
+
+  max_iterations: 1000
+  val_interval: 1000
+
+  # ---- model & dataset ----
+  model: models.xbusnet.XBusNet
+  dataset: datasets.blu.XBusNetDataset
+
+  split: train
+  image_size: 352
+  normalize: True
+  aug: 0
+  aug_rotate: False
+
+  csv_path: folds/train_fold3.csv
+  val_csv_path: folds/val_fold3.csv
+  image_dir: /home/mallinar/X-BusNet/images
+  mask_dir: /home/mallinar/X-BusNet/masks
+
+  # ---- visual prompt mode ----
+  mask: text_and_crop_blur_highlight352
+
+  # ---- general prompt/mix options ----
+  mix: True
+  prompt: plain
+  norm_cond: True
+  mix_text_min: 0.0
+
+  # ---- model-specific ----
+  version: "ViT-B/16"
+  extract_layers: [3, 7, 9]
+  reduce_dim: 64
+  depth: 3
+  fix_shift: False
+
+  lfe_num_heads: 8
+  lfe_clip_ckpt: "/home/mallinar/.cache/clip/ViT-B-16/ViT-B-16.pt"
+
+  extra_blocks: 2
+  trans_conv: null
+  n_tokens: null
+
+  loss: Dice
+  amp: True
+
+# Individual config merged into main config automatically
+individual_configurations:
+  - { name: blu_fold3_xbusnet,
+      with_visual: True,
+      negative_prob: 0.0,
+      mix: True,
+      mix_text_max: 1.0 }
