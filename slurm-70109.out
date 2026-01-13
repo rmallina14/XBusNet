@@ -1,109 +1,0 @@
-==== Starting Fold 0 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold0.csv'}
-Train dataset XBusNetDataset (length: 201)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold0.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.8612
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.5263
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.3223
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.1121
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.1151
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.1412
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.1607
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0749
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0828
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0800
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold0_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:01<00:12,  1.06s/it]Validation:  15%|█▌        | 2/13 [00:01<00:06,  1.61it/s]Validation:  23%|██▎       | 3/13 [00:01<00:04,  2.46it/s]Validation:  31%|███       | 4/13 [00:01<00:02,  3.35it/s]Validation:  38%|███▊      | 5/13 [00:01<00:02,  3.70it/s]Validation:  46%|████▌     | 6/13 [00:02<00:02,  3.03it/s]Validation:  54%|█████▍    | 7/13 [00:02<00:01,  3.07it/s]Validation:  62%|██████▏   | 8/13 [00:02<00:01,  3.14it/s]Validation:  69%|██████▉   | 9/13 [00:03<00:01,  3.64it/s]Validation:  77%|███████▋  | 10/13 [00:03<00:00,  4.30it/s]Validation:  85%|████████▍ | 11/13 [00:03<00:00,  4.36it/s]Validation:  92%|█████████▏| 12/13 [00:03<00:00,  3.55it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  3.79it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  3.13it/s]
-[Validation] Error on case002.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case020.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case036.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case052.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case096.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case101.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case122.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case140.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case158.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case171.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case186.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case210.png: not enough values to unpack (expected 9, got 6)
-[Validation] Error on case234.png: not enough values to unpack (expected 9, got 6)
-
-Validation Complete:
-Mean Loss: 0.2426
-Mean IoU: 0.0000
-Mean Dice: 0.0000
-Mean F1: 0.0000
-Mean FPR: 0.0000
-Mean FNR: 0.0000
-
-Training Complete:
-Mean Train Loss: 0.1744
-Mean Train IoU:  0.8531
-Mean Val IoU:  0.0000
-Mean Val Dice: 0.0000
-Mean Val F1:   0.0000
-Mean Val FPR:  0.0000
-Mean Val FNR:  0.0000
-==== Finished Fold 0 ====
-==== Starting Fold 1 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold1.csv'}
-Train dataset XBusNetDataset (length: 201)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold1.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.8927
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.2037
-LR: 0.000100
-LR: 0.000100
-slurmstepd: error: *** JOB 70109 ON sxm001 CANCELLED AT 2025-11-17T21:30:08 ***
