@@ -1,390 +1,0 @@
-==== Starting Fold 0 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold0.csv'}
-Train dataset XBusNetDataset (length: 201)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold0.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.8597
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.3903
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.2886
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.1622
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.1110
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.0980
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.2052
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0869
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0466
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0568
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold0_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:01<00:15,  1.33s/it]Validation:  15%|█▌        | 2/13 [00:01<00:09,  1.10it/s]Validation:  23%|██▎       | 3/13 [00:02<00:07,  1.37it/s]Validation:  31%|███       | 4/13 [00:02<00:05,  1.68it/s]Validation:  38%|███▊      | 5/13 [00:03<00:04,  1.84it/s]Validation:  46%|████▌     | 6/13 [00:03<00:03,  1.85it/s]Validation:  54%|█████▍    | 7/13 [00:04<00:02,  2.12it/s]Validation:  62%|██████▏   | 8/13 [00:04<00:02,  2.09it/s]Validation:  69%|██████▉   | 9/13 [00:05<00:01,  2.07it/s]Validation:  77%|███████▋  | 10/13 [00:05<00:01,  2.28it/s]Validation:  85%|████████▍ | 11/13 [00:05<00:00,  2.25it/s]Validation:  92%|█████████▏| 12/13 [00:06<00:00,  2.33it/s]Validation: 100%|██████████| 13/13 [00:06<00:00,  2.70it/s]Validation: 100%|██████████| 13/13 [00:06<00:00,  1.96it/s]
-
-Validation Complete:
-Mean Loss: 0.2157
-Mean IoU: 0.8289
-Mean Dice: 0.8826
-Mean F1: 0.8826
-Mean FPR: 0.1900
-Mean FNR: 0.0956
-
-Training Complete:
-Mean Train Loss: 0.1464
-Mean Train IoU:  0.8745
-Mean Val IoU:  0.8289
-Mean Val Dice: 0.8826
-Mean Val F1:   0.8826
-Mean Val FPR:  0.1900
-Mean Val FNR:  0.0956
-==== Finished Fold 0 ====
-==== Starting Fold 1 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold1.csv'}
-Train dataset XBusNetDataset (length: 201)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold1.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.8639
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.1826
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.1921
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.2247
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.0901
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.1075
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.0692
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0748
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0783
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0609
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold1_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:01<00:14,  1.20s/it]Validation:  15%|█▌        | 2/13 [00:01<00:08,  1.32it/s]Validation:  23%|██▎       | 3/13 [00:02<00:06,  1.66it/s]Validation:  31%|███       | 4/13 [00:02<00:04,  1.83it/s]Validation:  38%|███▊      | 5/13 [00:02<00:03,  2.05it/s]Validation:  46%|████▌     | 6/13 [00:03<00:03,  2.09it/s]Validation:  54%|█████▍    | 7/13 [00:03<00:02,  2.06it/s]Validation:  62%|██████▏   | 8/13 [00:04<00:02,  2.33it/s]Validation:  69%|██████▉   | 9/13 [00:04<00:01,  2.26it/s]Validation:  77%|███████▋  | 10/13 [00:05<00:01,  2.21it/s]Validation:  85%|████████▍ | 11/13 [00:05<00:00,  2.43it/s]Validation:  92%|█████████▏| 12/13 [00:05<00:00,  2.54it/s]Validation: 100%|██████████| 13/13 [00:06<00:00,  2.65it/s]Validation: 100%|██████████| 13/13 [00:06<00:00,  2.10it/s]
-
-Validation Complete:
-Mean Loss: 0.1936
-Mean IoU: 0.8372
-Mean Dice: 0.8958
-Mean F1: 0.8958
-Mean FPR: 0.1850
-Mean FNR: 0.0816
-
-Training Complete:
-Mean Train Loss: 0.1589
-Mean Train IoU:  0.8648
-Mean Val IoU:  0.8372
-Mean Val Dice: 0.8958
-Mean Val F1:   0.8958
-Mean Val FPR:  0.1850
-Mean Val FNR:  0.0816
-==== Finished Fold 1 ====
-==== Starting Fold 2 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold2.csv'}
-Train dataset XBusNetDataset (length: 202)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold2.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.9002
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.1666
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.2906
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.0694
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.1072
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.1183
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.0968
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0864
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0414
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0437
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold2_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:00<00:11,  1.01it/s]Validation:  15%|█▌        | 2/13 [00:01<00:06,  1.66it/s]Validation:  23%|██▎       | 3/13 [00:01<00:04,  2.08it/s]Validation:  31%|███       | 4/13 [00:01<00:03,  2.44it/s]Validation:  38%|███▊      | 5/13 [00:02<00:02,  2.70it/s]Validation:  46%|████▌     | 6/13 [00:02<00:02,  2.77it/s]Validation:  54%|█████▍    | 7/13 [00:02<00:02,  2.87it/s]Validation:  62%|██████▏   | 8/13 [00:03<00:01,  2.81it/s]Validation:  69%|██████▉   | 9/13 [00:03<00:01,  2.81it/s]Validation:  77%|███████▋  | 10/13 [00:03<00:01,  2.89it/s]Validation:  85%|████████▍ | 11/13 [00:04<00:00,  3.05it/s]Validation:  92%|█████████▏| 12/13 [00:04<00:00,  3.51it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  4.23it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  2.82it/s]
-
-Validation Complete:
-Mean Loss: 0.2731
-Mean IoU: 0.7900
-Mean Dice: 0.8524
-Mean F1: 0.8524
-Mean FPR: 0.1861
-Mean FNR: 0.1181
-
-Training Complete:
-Mean Train Loss: 0.1447
-Mean Train IoU:  0.8765
-Mean Val IoU:  0.7900
-Mean Val Dice: 0.8524
-Mean Val F1:   0.8524
-Mean Val FPR:  0.1861
-Mean Val FNR:  0.1181
-==== Finished Fold 2 ====
-==== Starting Fold 3 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold3.csv'}
-Train dataset XBusNetDataset (length: 202)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold3.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.9085
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.2459
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.1197
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.1498
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.1205
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.3555
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.0950
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0764
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0823
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0826
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold3_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:00<00:11,  1.07it/s]Validation:  15%|█▌        | 2/13 [00:01<00:06,  1.62it/s]Validation:  23%|██▎       | 3/13 [00:01<00:05,  2.00it/s]Validation:  31%|███       | 4/13 [00:02<00:03,  2.27it/s]Validation:  38%|███▊      | 5/13 [00:02<00:03,  2.52it/s]Validation:  46%|████▌     | 6/13 [00:02<00:02,  2.71it/s]Validation:  54%|█████▍    | 7/13 [00:02<00:02,  2.83it/s]Validation:  62%|██████▏   | 8/13 [00:03<00:01,  2.85it/s]Validation:  69%|██████▉   | 9/13 [00:03<00:01,  2.99it/s]Validation:  77%|███████▋  | 10/13 [00:03<00:00,  3.04it/s]Validation:  85%|████████▍ | 11/13 [00:04<00:00,  3.23it/s]Validation:  92%|█████████▏| 12/13 [00:04<00:00,  3.61it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  4.20it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  2.82it/s]
-
-Validation Complete:
-Mean Loss: 0.2584
-Mean IoU: 0.8014
-Mean Dice: 0.8649
-Mean F1: 0.8649
-Mean FPR: 0.1831
-Mean FNR: 0.1432
-
-Training Complete:
-Mean Train Loss: 0.1619
-Mean Train IoU:  0.8628
-Mean Val IoU:  0.8014
-Mean Val Dice: 0.8649
-Mean Val F1:   0.8649
-Mean Val FPR:  0.1831
-Mean Val FNR:  0.1432
-==== Finished Fold 3 ====
-==== Starting Fold 4 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold4.csv'}
-Train dataset XBusNetDataset (length: 202)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold4.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.8464
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.3155
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.1944
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.1361
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.3042
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.1038
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.0711
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0746
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0768
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0627
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold4_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:01<00:12,  1.01s/it]Validation:  15%|█▌        | 2/13 [00:01<00:07,  1.57it/s]Validation:  23%|██▎       | 3/13 [00:01<00:05,  1.96it/s]Validation:  31%|███       | 4/13 [00:02<00:03,  2.31it/s]Validation:  38%|███▊      | 5/13 [00:02<00:03,  2.50it/s]Validation:  46%|████▌     | 6/13 [00:02<00:02,  2.76it/s]Validation:  54%|█████▍    | 7/13 [00:03<00:02,  2.75it/s]Validation:  62%|██████▏   | 8/13 [00:03<00:01,  2.89it/s]Validation:  69%|██████▉   | 9/13 [00:03<00:01,  2.85it/s]Validation:  77%|███████▋  | 10/13 [00:04<00:01,  2.83it/s]Validation:  85%|████████▍ | 11/13 [00:04<00:00,  3.06it/s]Validation:  92%|█████████▏| 12/13 [00:04<00:00,  3.60it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  4.30it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  2.77it/s]
-
-Validation Complete:
-Mean Loss: 0.2457
-Mean IoU: 0.8047
-Mean Dice: 0.8690
-Mean F1: 0.8690
-Mean FPR: 0.1867
-Mean FNR: 0.1221
-
-Training Complete:
-Mean Train Loss: 0.1544
-Mean Train IoU:  0.8705
-Mean Val IoU:  0.8047
-Mean Val Dice: 0.8690
-Mean Val F1:   0.8690
-Mean Val FPR:  0.1867
-Mean Val FNR:  0.1221
-==== Finished Fold 4 ====
