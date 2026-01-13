@@ -1,268 +1,0 @@
-==== Starting Fold 0 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold0.csv'}
-Train dataset XBusNetDataset (length: 201)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold0.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.8882
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.3691
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.2455
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.1290
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.1160
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.1137
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.0818
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0558
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0588
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0688
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold0_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:02<00:24,  2.03s/it]Validation:  15%|█▌        | 2/13 [00:03<00:18,  1.66s/it]Validation:  31%|███       | 4/13 [00:03<00:05,  1.51it/s]Validation:  38%|███▊      | 5/13 [00:03<00:04,  1.91it/s]Validation:  46%|████▌     | 6/13 [00:04<00:03,  2.18it/s]Validation:  54%|█████▍    | 7/13 [00:04<00:02,  2.52it/s]Validation:  62%|██████▏   | 8/13 [00:04<00:01,  2.53it/s]Validation:  69%|██████▉   | 9/13 [00:05<00:01,  2.78it/s]Validation:  77%|███████▋  | 10/13 [00:05<00:00,  3.04it/s]Validation:  85%|████████▍ | 11/13 [00:05<00:00,  3.49it/s]Validation:  92%|█████████▏| 12/13 [00:05<00:00,  4.06it/s]Validation: 100%|██████████| 13/13 [00:05<00:00,  4.32it/s]Validation: 100%|██████████| 13/13 [00:05<00:00,  2.22it/s]
-[Validation] Error on batch0: mat1 and mat2 must have the same dtype
-[Validation] Error on batch1: mat1 and mat2 must have the same dtype
-[Validation] Error on batch2: mat1 and mat2 must have the same dtype
-[Validation] Error on batch3: mat1 and mat2 must have the same dtype
-[Validation] Error on batch4: mat1 and mat2 must have the same dtype
-[Validation] Error on batch5: mat1 and mat2 must have the same dtype
-[Validation] Error on batch6: mat1 and mat2 must have the same dtype
-[Validation] Error on batch7: mat1 and mat2 must have the same dtype
-[Validation] Error on batch8: mat1 and mat2 must have the same dtype
-[Validation] Error on batch9: mat1 and mat2 must have the same dtype
-[Validation] Error on batch10: mat1 and mat2 must have the same dtype
-[Validation] Error on batch11: mat1 and mat2 must have the same dtype
-[Validation] Error on batch12: mat1 and mat2 must have the same dtype
-Warning: No validation samples were processed successfully
-
-Training Complete:
-Mean Train Loss: 0.1455
-Mean Train IoU:  0.8779
-Mean Val IoU:  0.0000
-Mean Val Dice: 0.0000
-Mean Val F1:   0.0000
-Mean Val FPR:  0.0000
-Mean Val FNR:  0.0000
-==== Finished Fold 0 ====
-==== Starting Fold 1 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold1.csv'}
-Train dataset XBusNetDataset (length: 201)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold1.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.8880
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.3347
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.1562
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.1189
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.1043
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.0931
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.0716
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0875
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0980
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0514
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold1_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:00<00:09,  1.21it/s]Validation:  15%|█▌        | 2/13 [00:02<00:12,  1.14s/it]Validation:  31%|███       | 4/13 [00:02<00:04,  2.08it/s]Validation:  46%|████▌     | 6/13 [00:02<00:02,  3.19it/s]Validation:  54%|█████▍    | 7/13 [00:02<00:01,  3.51it/s]Validation:  62%|██████▏   | 8/13 [00:03<00:01,  3.85it/s]Validation:  69%|██████▉   | 9/13 [00:03<00:00,  4.25it/s]Validation:  85%|████████▍ | 11/13 [00:03<00:00,  5.21it/s]Validation:  92%|█████████▏| 12/13 [00:03<00:00,  5.32it/s]Validation: 100%|██████████| 13/13 [00:03<00:00,  5.80it/s]Validation: 100%|██████████| 13/13 [00:03<00:00,  3.42it/s]
-[Validation] Error on batch0: mat1 and mat2 must have the same dtype
-[Validation] Error on batch1: mat1 and mat2 must have the same dtype
-[Validation] Error on batch2: mat1 and mat2 must have the same dtype
-[Validation] Error on batch3: mat1 and mat2 must have the same dtype
-[Validation] Error on batch4: mat1 and mat2 must have the same dtype
-[Validation] Error on batch5: mat1 and mat2 must have the same dtype
-[Validation] Error on batch6: mat1 and mat2 must have the same dtype
-[Validation] Error on batch7: mat1 and mat2 must have the same dtype
-[Validation] Error on batch8: mat1 and mat2 must have the same dtype
-[Validation] Error on batch9: mat1 and mat2 must have the same dtype
-[Validation] Error on batch10: mat1 and mat2 must have the same dtype
-[Validation] Error on batch11: mat1 and mat2 must have the same dtype
-[Validation] Error on batch12: mat1 and mat2 must have the same dtype
-Warning: No validation samples were processed successfully
-
-Training Complete:
-Mean Train Loss: 0.1563
-Mean Train IoU:  0.8670
-Mean Val IoU:  0.0000
-Mean Val Dice: 0.0000
-Mean Val F1:   0.0000
-Mean Val FPR:  0.0000
-Mean Val FNR:  0.0000
-==== Finished Fold 1 ====
-==== Starting Fold 2 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold2.csv'}
-Train dataset XBusNetDataset (length: 202)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold2.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.9431
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.5869
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    200 | loss = 0.1781
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    300 | loss = 0.1732
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    400 | loss = 0.1218
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    500 | loss = 0.0727
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    600 | loss = 0.1038
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    700 | loss = 0.0638
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    800 | loss = 0.0575
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-LR: 0.000100
-iteration    900 | loss = 0.0525
-LR: 0.000099
-LR: 0.000099
-LR: 0.000099
-Saved weights to logs_busi/blu_fold2_xbusnet/weights.pth
-Validation:   0%|          | 0/13 [00:00<?, ?it/s]Validation:   8%|▊         | 1/13 [00:00<00:09,  1.23it/s]Validation:  15%|█▌        | 2/13 [00:02<00:12,  1.16s/it]Validation:  31%|███       | 4/13 [00:02<00:04,  2.06it/s]Validation:  38%|███▊      | 5/13 [00:02<00:02,  2.68it/s]Validation:  46%|████▌     | 6/13 [00:02<00:02,  3.23it/s]Validation:  54%|█████▍    | 7/13 [00:02<00:01,  3.86it/s]Validation:  62%|██████▏   | 8/13 [00:03<00:01,  4.15it/s]Validation:  69%|██████▉   | 9/13 [00:03<00:00,  4.97it/s]Validation:  77%|███████▋  | 10/13 [00:03<00:00,  5.02it/s]Validation:  85%|████████▍ | 11/13 [00:03<00:00,  5.06it/s]Validation:  92%|█████████▏| 12/13 [00:03<00:00,  5.55it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  3.49it/s]Validation: 100%|██████████| 13/13 [00:04<00:00,  3.07it/s]
-[Validation] Error on batch0: mat1 and mat2 must have the same dtype
-[Validation] Error on batch1: mat1 and mat2 must have the same dtype
-[Validation] Error on batch2: mat1 and mat2 must have the same dtype
-[Validation] Error on batch3: mat1 and mat2 must have the same dtype
-[Validation] Error on batch4: mat1 and mat2 must have the same dtype
-[Validation] Error on batch5: mat1 and mat2 must have the same dtype
-[Validation] Error on batch6: mat1 and mat2 must have the same dtype
-[Validation] Error on batch7: mat1 and mat2 must have the same dtype
-[Validation] Error on batch8: mat1 and mat2 must have the same dtype
-[Validation] Error on batch9: mat1 and mat2 must have the same dtype
-[Validation] Error on batch10: mat1 and mat2 must have the same dtype
-[Validation] Error on batch11: mat1 and mat2 must have the same dtype
-[Validation] Error on batch12: mat1 and mat2 must have the same dtype
-Warning: No validation samples were processed successfully
-
-Training Complete:
-Mean Train Loss: 0.1455
-Mean Train IoU:  0.8752
-Mean Val IoU:  0.0000
-Mean Val Dice: 0.0000
-Mean Val F1:   0.0000
-Mean Val FPR:  0.0000
-Mean Val FNR:  0.0000
-==== Finished Fold 2 ====
-==== Starting Fold 3 ====
-[train] dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/train_fold3.csv'}
-Train dataset XBusNetDataset (length: 202)
-[train] val_dataset_args: {'image_dir': '/home/mallinar/X-BusNet/images', 'mask_dir': '/home/mallinar/X-BusNet/masks', 'csv_file': 'folds/val_fold3.csv', 'split': 'val', 'aug': 0}
-LR: 0.000100
-iteration      0 | loss = 0.9692
-LR: 0.000100
-LR: 0.000100
-/home/mallinar/X-BusNet/models/xbusnet.py:338: UserWarning: FALLBACK path has been taken inside: runCudaFusionGroup. This is an indication that codegen Failed for some reason.
-To debug try disable codegen fallback path via setting the env variable `export PYTORCH_NVFUSER_DISABLE=fallback`
- (Triggered internally at ../torch/csrc/jit/codegen/cuda/manager.cpp:331.)
-  visual_q = self.clip_model.encode_image(inp_image)
-LR: 0.000100
-LR: 0.000100
-iteration    100 | loss = 0.4488
-slurmstepd: error: *** JOB 70104 ON sxm001 CANCELLED AT 2025-11-17T21:19:28 ***
